@@ -102,11 +102,11 @@ class PyFuck:
             if self.code[idx] == '[':
                 starts.append(idx)
             elif self.code[idx] == ']':
+                if starts == []:
+                    self.error = True
+                    print("SYNTAX ERROR")
+                    break
                 self.loops.append((starts.pop(), idx))
-
-        if len(starts) != 0:
-            self.error = True
-            print("SYNTAX ERROR")
 
     def _find_end(self, val) -> int:
         ''' Returns the bracket loop from the given start index. '''
