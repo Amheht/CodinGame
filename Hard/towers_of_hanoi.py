@@ -1,4 +1,6 @@
-import sys
+# CodingGame - Hanoi Tower (Towers if Hanoi)
+# Difficulty - Hard
+# Solution by Joseph Garcia
 
 class TowersOfHanoi:
     """ A class that generates the state of a Towers of Hanoi game for a given disk and turn count. """
@@ -80,17 +82,11 @@ class TowersOfHanoi:
         remaining_moves = '\n' + str((2**self.num_disks) - 1)
         return self.state + remaining_moves
 
-def main():
-    try:
-        disk_count = int(input())
-        turn_count = int(input())
-
-    except ValueError:
-        print("Please enter valid integers.")
-        sys.exit(1)
-
+    # ---- Start input from test ---- #
+    disk_count = int(input())
+    turn_count = int(input())
+    # ----  End input from test  ---- #
+    
     game = TowersOfHanoi(disk_count, turn_count)
     print(game)
 
-if __name__ == "__main__":
-    main()
