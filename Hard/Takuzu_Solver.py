@@ -1,12 +1,6 @@
-
-
-# ---- Start input from test ---- #
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
-n = int(input())
-data = [[char for char in input()] for _ in range(n)]
-# ---- End input from test ---- #
-
+# CodingGame - Takuzu Solver
+# Difficulty - Hard
+# Solution by Joseph Garcia
 class Board:
 
     def __init__(self, dim: int = 0):
@@ -193,6 +187,13 @@ def solve(board) -> bool:
             if solve(b0):
                 return True
     return False
+
+# ---- Start input from test ---- #
+n = int(input())
+data = [[char for char in input()] for _ in range(n)]
+# ----  End input from test  ---- #
+
+
 
 board = Board()
 board.load(data)
