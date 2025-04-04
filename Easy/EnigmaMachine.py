@@ -1,10 +1,6 @@
 import sys
 import math
 
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
-
-
 rotors = []
 operation = input()
 pseudo_random_number = int(input())
@@ -12,16 +8,13 @@ for i in range(3):
     rotors.append(input())
 message = input()
 
-
 # -- BEGIN SOLUTION --
 class Enigma:
     ''' 
-
         Class designed to encode/decode strings of characters using an incremental value shift and
         variably ordered character sequences.
 
         Written By Amheht
-
     '''
     CHAR_SET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     def __init__(self, operation, rotors, shift_value, messsage):
