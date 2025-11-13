@@ -1,4 +1,5 @@
-# Written by Joseph Garcia
+# Solution written by Joseph Garcia
+# Original Puzzle: https://www.codingame.com/training/easy/triangle-toggle
 from collections import namedtuple
 
 Point = namedtuple('Point', ['x', 'y'])
