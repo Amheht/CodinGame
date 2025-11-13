@@ -1,5 +1,5 @@
-# Written by Joseph Garcia
-
+# Solution written by Joseph Garcia
+# Original Puzzle: https://www.codingame.com/training/easy/wordle-colorizer
 import sys
 
 def countsDict(text: str) -> dict:
