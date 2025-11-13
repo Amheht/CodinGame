@@ -1,4 +1,5 @@
-# Written by Joseph Garcia
+# Solution written by Joseph Garcia
+# Original Puzzle: https://www.codingame.com/training/easy/make-an-atari-font
 a_word = input()
 
 hex_chars = {
