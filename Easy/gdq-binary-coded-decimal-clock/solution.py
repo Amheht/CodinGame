@@ -1,4 +1,5 @@
-# Written by Joseph Garcia
+# Solution written by Joseph Garcia
+# Original Puzzle: https://www.codingame.com/training/easy/gdq---binary-coded-decimal-clock
 import sys
 import math
 
