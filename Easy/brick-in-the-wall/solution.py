@@ -1,4 +1,5 @@
-# Written by Joseph Garcia
+# Solution written by Joseph Garcia
+# Original Puzzle: https://www.codingame.com/training/easy/brick-in-the-wall
 
 # Acceleration due to gravity
 g = 10
