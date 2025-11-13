@@ -1,5 +1,5 @@
-# Written by Joseph Garcia
-
+# Solution written by Joseph Garcia
+# Original Puzzle: https://www.codingame.com/training/easy/next-car-license-plate
 class LP:
     ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     def __init__(self, plate: str):
