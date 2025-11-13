@@ -11,7 +11,6 @@ class Loss:
         diff = self.floor - self.peak
         return diff if diff < 0 else 0
 
-
 # Read input
 n = int(input())
 data = list(map(int, input().split()))
