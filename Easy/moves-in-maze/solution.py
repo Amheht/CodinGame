@@ -1,4 +1,5 @@
-# Written by Joseph Garcia
+# Solution written by Joseph Garcia
+# Original Puzzle: https://www.codingame.com/training/easy/moves-in-maze
 from collections import deque
 
 # Conversion table for 0-35
