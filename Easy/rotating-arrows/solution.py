@@ -1,4 +1,5 @@
-# Written by Joseph Garcia
+# Solution written by Joseph Garcia
+# Original Puzzle: https://www.codingame.com/training/easy/rotating-arrows
 
 # Constants & Declarations
 ARROW_MAP = ["^", ">", "v", "<"]
